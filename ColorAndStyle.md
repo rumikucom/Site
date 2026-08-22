@@ -13,11 +13,10 @@
 ## Visual Styling Rules
 * **Corner Radius:**
   * Badges and buttons: `rounded-full`
-  * Card containers and bento grids: `rounded-2xl` to `rounded-3xl`
-  * Image frames: `rounded-xl`
-* **Borders & Shadows:**
-  * Standard stroke: `2px solid #000000`
-  * Heavy accent stroke: `3px solid #000000`
-  * Hard drop shadow: `4px 4px 0px #000000` or `5px 5px 0px #7038F7`
+  * Card containers and bento grids: `rounded-[2rem]` to `rounded-[3rem]`
+  * Image frames: `rounded-2xl`
+* **Borders & Shadows (Soft Neobrutalism):**
+  * Standard stroke: `3px solid #000000` (`border-neo`)
+  * Solid drop shadow: `4px 4px 0px rgba(0, 0, 0, 0.85)` or `6px 6px 0px #7038F7`
 * **Tactile Interactions:**
-  * Buttons use a 3D bottom border (`border-b-4` or `border-b-6`) that compresses on click (`active:border-b-2 active:translate-y-1`).
+  * Buttons use a thick border and solid shadow that compress on hover (`hover:translate-y-[2px] hover:translate-x-[2px] hover:shadow-none`).

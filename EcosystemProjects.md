@@ -15,7 +15,7 @@ Rumiku operates multiple specialized digital verticals across gaming, fandom med
 * **Key Features:** Automated content distribution pipelines, community editorial pieces, and trend tracking.
 * **Target Audience:** Fandom enthusiasts and pop culture creators.
 
-### 3. ROKU & Kyoomi (Merchandise & Collectibles)
+### 3. Rokupi (Merchandise & Collectibles)
 * **Focus:** Exclusive fan-merchandise and official brand apparel.
 * **Key Features:** Curated product drops, limited-edition collectibles, and street-style aesthetic.
 * **Target Audience:** Anime community, creative collectors, and lifestyle fans.
