@@ -32,7 +32,7 @@ export function Footer() {
           </div>
           
           <div className="relative z-10 shrink-0">
-            <Button size="lg" className="font-outfit font-bold text-xl h-16 px-10 rounded-full shadow-glow hover:scale-105 hover:shadow-glow-secondary transition-transform bg-primary text-primary-foreground group">
+            <Button size="lg" className="group font-outfit font-bold text-xl h-16 px-10 rounded-full shadow-glow hover:scale-105 hover:shadow-glow-secondary transition-all bg-primary text-primary-foreground border border-black/15 dark:border-transparent">
               Let's Talk <ArrowUpRight className="ml-2 w-6 h-6 transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
             </Button>
           </div>

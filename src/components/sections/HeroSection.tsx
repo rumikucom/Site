@@ -11,7 +11,7 @@ export function HeroSection() {
         {/* Hero Text with Inline Icons */}
         <h1 className="font-outfit font-black text-[2.75rem] leading-[1.05] tracking-tighter md:text-6xl lg:text-7xl xl:text-8xl md:leading-[1.3] md:tracking-tight text-foreground max-w-7xl">
           We create
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-lime-300"> digital</span>
+          <span className="drop-shadow-[0_0_1.5px_rgba(0,0,0,0.25)] dark:drop-shadow-none text-transparent bg-clip-text bg-gradient-to-r from-primary to-lime-300"> digital</span>
           
           <span className="inline-icon bounce mx-1 md:mx-6 lg:mx-8 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/holographic-star.png" alt="Digital Spark" fill className="object-contain" />
@@ -37,7 +37,7 @@ export function HeroSection() {
         {/* Bottom row: CTA + Description */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mt-16 md:mt-24 gap-8">
           <div className="flex gap-4">
-            <Button size="lg" className="font-outfit font-bold text-lg h-14 px-8 rounded-full shadow-glow hover:scale-105 hover:shadow-glow-secondary transition-transform bg-primary text-primary-foreground">
+            <Button size="lg" className="font-outfit font-bold text-lg h-14 px-8 rounded-full shadow-glow hover:scale-105 hover:shadow-glow-secondary transition-transform bg-primary text-primary-foreground border border-black/15 dark:border-transparent">
               <a href="#ecosystem" className="flex items-center">
                 DISCOVER RUMIKU <ArrowDown className="ml-2 w-5 h-5" />
               </a>

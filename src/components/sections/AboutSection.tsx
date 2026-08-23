@@ -61,7 +61,7 @@ export function AboutSection() {
                   <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Active Platforms</span>
                 </div>
                 <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 hover:bg-foreground/10 transition-colors">
-                  <span className="block font-outfit text-5xl font-black text-primary mb-2">50k+</span>
+                  <span className="block drop-shadow-[0_0_1.5px_rgba(0,0,0,0.25)] dark:drop-shadow-none font-outfit text-5xl font-black text-primary mb-2">50k+</span>
                   <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Global Users</span>
                 </div>
                 <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 col-span-2 hover:bg-foreground/10 transition-colors">
