@@ -25,7 +25,7 @@ const ecosystemProjects = [
 
 export function EcosystemSection() {
   return (
-    <section id="ecosystem" className="py-32 bg-background relative overflow-hidden">
+    <section id="ecosystem" className="py-32 relative overflow-hidden">
       {/* Background ambient light */}
       <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-secondary/5 rounded-full blur-[150px] pointer-events-none -translate-y-1/2 translate-x-1/3" />
       

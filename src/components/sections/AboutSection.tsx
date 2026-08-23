@@ -26,7 +26,7 @@ export function AboutSection() {
   const isVisible2 = useOnScreen(ref2);
 
   return (
-    <section id="about" className="relative py-32 overflow-hidden bg-background">
+    <section id="about" className="relative py-32 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
           {/* Text Column */}

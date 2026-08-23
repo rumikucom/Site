@@ -146,7 +146,7 @@
     box-shadow: inset 0 1px 0 color-mix(in srgb, var(--foreground) 10%, transparent), 0 10px 40px -10px color-mix(in srgb, var(--foreground) 5%, transparent);
   }
   .mesh-bg {
-    background-color: var(--background);
+    background-color: transparent;
     background-image: radial-gradient(at 0% 0%, color-mix(in srgb, var(--secondary) 15%, transparent) 0, transparent 50%), radial-gradient(at 50% 0%, color-mix(in srgb, var(--primary) 10%, transparent) 0, transparent 50%), radial-gradient(at 100% 0%, color-mix(in srgb, var(--secondary) 15%, transparent) 0, transparent 50%);
   }
   
@@ -220,5 +220,44 @@
   
   .inline-icon.rotate {
     animation: rotate-slow 10s linear infinite;
+  }
+
+  /* ASCII Background */
+  @keyframes ascii-drift {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(-12px, -8px); }
+    50% { transform: translate(-6px, -16px); }
+    75% { transform: translate(-18px, -6px); }
+    100% { transform: translate(0, 0); }
+  }
+
+  .ascii-bg {
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    overflow: hidden;
+    opacity: 0.12;
+  }
+
+  .dark .ascii-bg {
+    opacity: 0.05;
+  }
+
+  .ascii-parallax-wrapper {
+    position: absolute;
+    inset: 0;
+    transform: translate(var(--parallax-x, 0px), var(--parallax-y, 0px));
+    transition: transform 0.1s cubic-bezier(0.2, 0, 0.2, 1);
+  }
+
+  .ascii-bg-text {
+    font-family: var(--font-geist-mono), 'Geist Mono', monospace;
+    font-size: 14px;
+    line-height: 2.4;
+    letter-spacing: 0.15em;
+    white-space: pre;
+    color: var(--foreground);
+    user-select: none;
   }
 }

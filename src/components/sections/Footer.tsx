@@ -16,7 +16,7 @@ export function Footer() {
   }, []);
 
   return (
-    <footer id="contact" className="bg-background pt-16 pb-8">
+    <footer id="contact" className="pt-16 pb-8">
       <div className="container mx-auto px-4 md:px-6">
         {/* BIG CTA BOX */}
         <div className="glassmorphism rounded-[2.5rem] p-10 md:p-16 mb-24 flex flex-col md:flex-row items-center justify-between gap-8 border border-foreground/10 relative overflow-hidden">
