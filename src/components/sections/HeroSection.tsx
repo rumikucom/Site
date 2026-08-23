@@ -9,35 +9,29 @@ export function HeroSection() {
       <div className="container mx-auto px-4 md:px-6 relative z-10 w-full animate-fade-in-up">
         
         {/* Hero Text with Inline Icons */}
-        <h1 className="font-outfit font-black text-4xl md:text-5xl lg:text-7xl xl:text-8xl leading-[1.1] text-foreground tracking-tight max-w-5xl">
+        <h1 className="font-outfit font-black text-[2.75rem] leading-[1.05] tracking-tighter md:text-6xl lg:text-7xl xl:text-8xl md:leading-[1.3] md:tracking-tight text-foreground max-w-7xl">
           We create
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-purple-400"> digital</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-lime-300"> digital</span>
           
-          <span className="inline-icon bounce mx-2 md:mx-4 w-[1em] h-[1em] inline-flex align-middle">
+          <span className="inline-icon bounce mx-1 md:mx-6 lg:mx-8 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/holographic-star.png" alt="Digital Spark" fill className="object-contain" />
           </span>
           
-          experiences<br className="hidden md:block"/>
-          that are
-          
-          <span className="inline-icon rotate mx-2 md:mx-4 w-[1em] h-[1em] inline-flex align-middle">
+          experiences <br className="hidden md:block"/>
+          that are fun
+          <span className="inline-icon rotate ml-2 md:ml-4 lg:ml-6 mr-0 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/smiley-hologram.png" alt="Fun" fill className="object-contain" />
-          </span>
-          
-          fun, exciting,
-          
-          <span className="inline-icon bounce mx-2 md:mx-4 w-[1.5em] h-[1.5em] inline-flex align-middle">
+          </span>, <br className="block md:hidden" />
+          exciting
+          <span className="inline-icon bounce ml-2 md:ml-4 lg:ml-6 mr-0 w-[1.4em] h-[1.4em] inline-flex align-middle">
             <Image src="/images/icons/holographic-pyramid.png" alt="Joy" fill className="object-contain" />
-          </span>
-          
-          and accessible<br className="hidden md:block"/>
+          </span>, and accessible <br className="hidden md:block"/>
           to bring
-          
-          <span className="inline-icon rotate mx-2 md:mx-4 w-[1em] h-[1em] inline-flex align-middle">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-purple-400"> joy to your <br className="block md:hidden" /> everyday life</span>
+          <span className="inline-icon rotate ml-2 md:ml-4 lg:ml-6 mr-0 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/holographic-diamond.png" alt="Life" fill className="object-contain" />
           </span>
-          
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-green-300">joy to your everyday life.</span>
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-purple-400">.</span>
         </h1>
 
         {/* Bottom row: CTA + Description */}

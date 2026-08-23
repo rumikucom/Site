@@ -1,5 +1,5 @@
 import React from 'react';
-import { KitsuneMask } from '@/components/icons/KitsuneMask';
+import Image from 'next/image';
 
 export function MarqueeBanner() {
   const words = ["Innovation", "Community", "Design", "Ecosystem", "Future"];
@@ -14,7 +14,7 @@ export function MarqueeBanner() {
                 <span className="font-outfit font-black text-3xl uppercase text-primary-foreground">
                   {word}
                 </span>
-                <KitsuneMask className="h-8 w-auto text-primary-foreground" />
+                <Image src="/images/logogram.svg" alt="Rumiku" width={32} height={32} className="h-8 w-auto drop-shadow-md" />
               </React.Fragment>
             ))}
           </React.Fragment>
@@ -28,7 +28,7 @@ export function MarqueeBanner() {
                 <span className="font-outfit font-black text-3xl uppercase text-primary-foreground">
                   {word}
                 </span>
-                <KitsuneMask className="h-8 w-auto text-primary-foreground" />
+                <Image src="/images/logogram.svg" alt="Rumiku" width={32} height={32} className="h-8 w-auto drop-shadow-md" />
               </React.Fragment>
             ))}
           </React.Fragment>

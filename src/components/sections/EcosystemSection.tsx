@@ -33,7 +33,7 @@ export function EcosystemSection() {
         
         <div className="flex flex-col items-center mb-16 space-y-4 text-center">
           <span className="text-secondary font-sans font-bold text-sm uppercase tracking-widest">Explore the Ecosystem</span>
-          <h2 className="font-outfit font-black text-4xl md:text-5xl lg:text-7xl text-foreground uppercase tracking-tight">
+          <h2 className="font-outfit font-black text-3xl md:text-5xl lg:text-7xl text-foreground uppercase tracking-tight">
             Our Digital Universe
           </h2>
           <p className="text-muted-foreground max-w-2xl text-lg md:text-xl font-light">
@@ -47,7 +47,7 @@ export function EcosystemSection() {
               key={index}
               className="group relative flex flex-col h-full glassmorphism rounded-3xl p-8 lg:p-12 transition-all duration-500 hover:-translate-y-2 hover:shadow-glow"
             >
-              <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent pointer-events-none" />
+              <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-foreground/10 to-transparent pointer-events-none" />
               
               <div className="relative flex items-center justify-center h-24 mb-10 w-full">
                 <Image 
@@ -70,7 +70,7 @@ export function EcosystemSection() {
                 <div className="mt-auto flex justify-center">
                   <a 
                     href="#" 
-                    className="inline-flex items-center gap-2 font-bold uppercase tracking-widest text-sm text-foreground/70 group-hover:text-secondary transition-colors"
+                    className="inline-flex items-center gap-2 font-bold uppercase tracking-widest text-sm text-muted-foreground group-hover:text-foreground transition-colors"
                   >
                     Enter Platform <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                   </a>

@@ -54,17 +54,17 @@ export function AboutSection() {
             {/* Cinematic backglow */}
             <div className="absolute w-full h-full bg-primary/10 rounded-full blur-[100px] pointer-events-none" />
             
-            <div className="relative glassmorphism rounded-[2rem] p-10 shadow-soft">
-              <div className="grid grid-cols-2 gap-6">
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-colors">
+            <div className="relative glassmorphism rounded-[2rem] p-6 md:p-10 shadow-soft">
+              <div className="grid grid-cols-2 gap-4 md:gap-6">
+                <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 hover:bg-foreground/10 transition-colors">
                   <span className="block font-outfit text-5xl font-black text-secondary mb-2">3</span>
                   <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Active Platforms</span>
                 </div>
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-colors">
+                <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 hover:bg-foreground/10 transition-colors">
                   <span className="block font-outfit text-5xl font-black text-primary mb-2">50k+</span>
                   <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Global Users</span>
                 </div>
-                <div className="bg-white/5 border border-white/10 rounded-2xl p-6 col-span-2 hover:bg-white/10 transition-colors">
+                <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 col-span-2 hover:bg-foreground/10 transition-colors">
                   <span className="block font-outfit text-3xl font-black text-foreground mb-2">1 Ecosystem</span>
                   <span className="text-muted-foreground text-sm font-medium font-sans">Connecting gaming, media, and lifestyle in a single unified experience.</span>
                 </div>

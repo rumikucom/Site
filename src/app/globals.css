@@ -63,16 +63,38 @@
 }
 
 :root {
+  --background: #f9f8fc;
+  --foreground: #1e1b26;
+  --card: #f2f0f5;
+  --card-foreground: #1e1b26;
+  --popover: #f2f0f5;
+  --popover-foreground: #1e1b26;
+  --primary: #e7ff57;
+  --primary-foreground: #000000;
+  --secondary: #7d39ff;
+  --secondary-foreground: #ffffff;
+  --muted: #F4F4F5;
+  --muted-foreground: #4b4b57;
+  --accent: #F4F4F5;
+  --accent-foreground: #050505;
+  --destructive: #ef4444;
+  --border: #E4E4E7;
+  --input: #E4E4E7;
+  --ring: #e7ff57;
+  --radius: 1.25rem;
+}
+
+.dark {
   --background: #050505;
   --foreground: #FFFFFF;
   --card: #0A0A0C;
   --card-foreground: #FFFFFF;
   --popover: #0A0A0C;
   --popover-foreground: #FFFFFF;
-  --primary: #7d39ff;
-  --primary-foreground: #ffffff;
-  --secondary: #e7ff57;
-  --secondary-foreground: #000000;
+  --primary: #e7ff57;
+  --primary-foreground: #000000;
+  --secondary: #7d39ff;
+  --secondary-foreground: #ffffff;
   --muted: #1A1A1E;
   --muted-foreground: #A1A1AA;
   --accent: #1A1A1E;
@@ -80,8 +102,7 @@
   --destructive: #ef4444;
   --border: #24242A;
   --input: #24242A;
-  --ring: #7d39ff;
-  --radius: 1.25rem;
+  --ring: #e7ff57;
 }
 
 @layer base {
@@ -116,17 +137,17 @@
     box-shadow: 0 0 40px -10px var(--secondary);
   }
   .shadow-soft {
-    box-shadow: 0 10px 40px -10px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 40px -10px color-mix(in srgb, var(--foreground) 30%, transparent);
   }
   .glassmorphism {
-    background: rgba(10, 10, 12, 0.4);
+    background: color-mix(in srgb, var(--foreground) 5%, transparent);
     backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 10px 40px -10px rgba(0,0,0,0.5);
+    border: 1px solid color-mix(in srgb, var(--foreground) 10%, transparent);
+    box-shadow: inset 0 1px 0 color-mix(in srgb, var(--foreground) 10%, transparent), 0 10px 40px -10px color-mix(in srgb, var(--foreground) 5%, transparent);
   }
   .mesh-bg {
-    background-color: #050505;
-    background-image: radial-gradient(at 0% 0%, hsla(253,16%,7%,1) 0, transparent 50%), radial-gradient(at 50% 0%, hsla(225,39%,30%,0.1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(339,49%,30%,0.1) 0, transparent 50%);
+    background-color: var(--background);
+    background-image: radial-gradient(at 0% 0%, color-mix(in srgb, var(--secondary) 15%, transparent) 0, transparent 50%), radial-gradient(at 50% 0%, color-mix(in srgb, var(--primary) 10%, transparent) 0, transparent 50%), radial-gradient(at 100% 0%, color-mix(in srgb, var(--secondary) 15%, transparent) 0, transparent 50%);
   }
   
   @keyframes fadeInUp {
