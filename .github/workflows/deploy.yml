@@ -30,6 +30,6 @@ jobs:
         server: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        # Note: Next.js static exports build to the "out" directory instead of "dist"
         local-dir: ./out/
         server-dir: ./
+        dangerous-clean-slate: true
