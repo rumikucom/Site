@@ -20,7 +20,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Rumiku | Forge Your Legacy",
+  title: "Rumiku - Digital Fun, Exciting & Accessible Joy",
   description: "A playful, modern, bold, and tactile ecosystem built for the next generation of web and community experiences.",
   icons: {
     icon: "/favicon.svg",

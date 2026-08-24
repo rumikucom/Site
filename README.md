@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Rumiku Website
+
+Welcome to the Rumiku platform! This is a playfully modern, highly interactive, and beautiful landing page and ecosystem hub built for the next generation of web and community experiences.
+
+## Features
+
+- **Modern Design**: High contrast, tactile typography (Outfit, Geist Sans, Geist Mono), and bold lime yellow accents.
+- **Dynamic ASCII Background**: An interactive, responsive background grid that acts as a topographic field, shifting and blooming based on mouse movement for extremely satisfying tactile feedback.
+- **Dark/Light Mode**: Smooth transitions between a deep space dark theme and a vibrant, bright light theme.
+- **Interactive UI Components**: Leveraging Shadcn UI and Base UI for accessible, robust components.
+- **Animations**: Silky smooth CSS animations, dynamic gradients, marquee banners, and hover effects that make the page feel alive.
 
 ## Getting Started
 
@@ -16,21 +26,16 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/components/sections/` - Core page sections (Hero, Ecosystem, About, Marquee, Footer).
+- `src/components/AsciiBackground.tsx` - The dynamic mouse-responsive background component.
+- `src/app/globals.css` - Global styles, design system variables, and utility animations.
+- `public/images/icons/` - Project icons (star, smiley, pyramid, diamond).
 
-## Learn More
+## Building for Production
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run build
+npm start
+```

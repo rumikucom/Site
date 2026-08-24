@@ -39,12 +39,12 @@ _Avoid_: Black, dark
 ### Visual Patterns
 
 **Tactile Button**:
-A button styled with a rounded-full border (`border-neo`) and a solid offset shadow (`shadow-neo-soft` or `shadow-neo-soft-purple`) that shifts on `:hover` (`translate-y-[2px] translate-x-[2px] shadow-none`) to simulate a physical press.
-_Avoid_: 3D button, push button
+A button styled with a rounded-full border (`border-black/15` or transparent) and a glowing shadow (`shadow-glow`) that expands and shifts on `:hover` (`scale-105 shadow-glow-secondary`) to simulate a physical and digital press.
+_Avoid_: Flat button, boring button
 
-**Soft Neobrutalist Shadow**:
-A solid, non-blurred offset shadow (`4px 4px 0px` or `6px 6px 0px`) applied to heavily rounded containers (`rounded-[2rem]`) to create a playful, tactile sticker effect. Always solid black or Electric Purple.
-_Avoid_: Drop shadow, blurred box shadow
+**Glowing Shadows & Glows**:
+A solid or blurred colored glow applied to elements or backgrounds to create a playful, neon, and digital effect. Often paired with Mesh Gradients and Ascii backgrounds.
+_Avoid_: Soft gray drop shadows, Neobrutalism
 
 **Bento Grid**:
 A CSS Grid layout with mixed cell sizes representing the ecosystem pillars. Not a uniform card grid.
