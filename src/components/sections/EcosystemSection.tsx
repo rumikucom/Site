@@ -5,19 +5,19 @@ import { ArrowRight } from 'lucide-react';
 const ecosystemProjects = [
   {
     title: "Creedigo",
-    logo: "/images/project/Creedigo.png",
+    logo: "/images/project/Creedigo.webp",
     description: "The premier all-in-one game voucher top-up platform and digital goods distribution network.",
     linkText: "Power Up Here"
   },
   {
     title: "Glocult",
-    logo: "/images/project/Glocult.png",
+    logo: "/images/project/Glocult.webp",
     description: "Your ultimate fandom media portal. A digital publication and culture hub for anime, gaming, and pop culture.",
     linkText: "Catch the Media"
   },
   {
     title: "Rokupi",
-    logo: "/images/project/Rokupi.png",
+    logo: "/images/project/Rokupi.webp",
     description: "Exclusive fan-merchandise and official brand apparel designed for the modern fandom.",
     linkText: "Shop the Drop"
   }
