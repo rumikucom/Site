@@ -1,6 +1,6 @@
 # Rumiku Website
 
-Welcome to the Rumiku platform! This is a playfully modern, highly interactive, and beautiful landing page and ecosystem hub built for the next generation of web and community experiences.
+Playfully modern, highly interactive, and beautiful landing page and ecosystem hub built for the next generation of web and community experiences.
 
 ## Screenshots
 
