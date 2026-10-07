@@ -34,15 +34,15 @@ export function AboutSection() {
             ref={ref1}
             className={`transition-all duration-1000 transform ${isVisible1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}
           >
-            <span className="text-muted-foreground font-sans font-semibold text-sm uppercase tracking-widest mb-4 block">About Us</span>
+            <span className="text-muted-foreground font-sans font-semibold text-sm uppercase tracking-widest mb-4 block">About RUMIKU</span>
             <h2 className="font-outfit font-black text-4xl md:text-5xl lg:text-6xl text-foreground mb-6 leading-[1.1]">
-              Transforming the digital space into a playful playground
+              A growing ecosystem for pop-culture communities
             </h2>
             <p className="text-foreground font-outfit text-3xl md:text-4xl font-medium leading-[1.4] mb-8">
-              At RUMIKU, we believe that the internet should be a canvas for expression, community, and pure digital creativity.
+              RUMIKU is a brand of PT RUMI KULTURA UTOPIA, building digital commerce, media, and retail platforms for gaming and pop-culture communities.
             </p>
             <p className="text-muted-foreground font-sans text-base md:text-lg leading-relaxed max-w-lg">
-              Expect intuitive design, playful aesthetics, and an unforgettable digital experience tailored directly for modern users. No corporate jargon—just pure, seamless interaction.
+              We develop and operate specialized brands—each designed to serve a specific part of the pop-culture ecosystem: digital goods distribution, fandom media, and hobby retail. Our approach is focused, product-driven, and community-informed.
             </p>
           </div>
 
@@ -57,16 +57,16 @@ export function AboutSection() {
             <div className="relative glassmorphism rounded-[2rem] p-6 md:p-10 shadow-soft">
               <div className="grid grid-cols-2 gap-4 md:gap-6">
                 <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 hover:bg-foreground/10 transition-colors">
-                  <span className="block font-outfit text-5xl font-black text-secondary mb-2">3</span>
-                  <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Active Platforms</span>
+                  <span className="block font-outfit text-3xl font-black text-secondary mb-2">What We Build</span>
+                  <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Platforms & Retail Brands</span>
                 </div>
                 <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 hover:bg-foreground/10 transition-colors">
-                  <span className="block drop-shadow-[0_0_1.5px_rgba(0,0,0,0.25)] dark:drop-shadow-none font-outfit text-5xl font-black text-primary mb-2">50k+</span>
-                  <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Global Users</span>
+                  <span className="block drop-shadow-[0_0_1.5px_rgba(0,0,0,0.25)] dark:drop-shadow-none font-outfit text-3xl font-black text-primary mb-2">Our Base</span>
+                  <span className="text-muted-foreground text-sm font-medium font-sans uppercase tracking-wider">Indonesia</span>
                 </div>
                 <div className="bg-foreground/5 border border-foreground/10 rounded-2xl p-6 col-span-2 hover:bg-foreground/10 transition-colors">
-                  <span className="block font-outfit text-3xl font-black text-foreground mb-2">1 Ecosystem</span>
-                  <span className="text-muted-foreground text-sm font-medium font-sans">Connecting gaming, media, and lifestyle in a single unified experience.</span>
+                  <span className="block font-outfit text-3xl font-black text-foreground mb-2">Our Focus</span>
+                  <span className="text-muted-foreground text-sm font-medium font-sans">Gaming, anime, collectibles, and pop-culture fandoms.</span>
                 </div>
               </div>
             </div>

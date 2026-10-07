@@ -1,23 +1,23 @@
 # Rumiku Ecosystem Knowledge Base
 
 ## Overview
-Rumiku operates multiple specialized digital verticals across gaming, fandom media, and lifestyle merchandise.
+RUMIKU, a brand operated by PT RUMI KULTURA UTOPIA, builds brands in digital commerce, media fandom, and hobby/pop-culture retail.
 
 ## Ecosystem Pillars
 
-### 1. Creedigo (Digital Goods & Gaming)
-* **Focus:** All-in-one game voucher top-up platform and digital goods distribution.
-* **Key Features:** Automated instant processing, game loot alerts, and deal tracking integration.
+### 1. Creedigo (Digital Commerce)
+* **Focus:** Digital commerce platform and game voucher top-up.
+* **Key Features:** Fast processing, competitive pricing, and focus on the gaming market.
 * **Target Audience:** Gamers and digital product consumers.
 
-### 2. Glocult (Fandom Media Portal)
-* **Focus:** Digital publication and culture hub covering anime, gaming, and pop culture topics.
+### 2. Glocult (Media & Culture)
+* **Focus:** Pop-culture media and editorial platform covering anime, gaming, and fandom trends.
 * **Key Features:** Automated content distribution pipelines, community editorial pieces, and trend tracking.
 * **Target Audience:** Fandom enthusiasts and pop culture creators.
 
-### 3. Rokupi (Merchandise & Collectibles)
-* **Focus:** Exclusive fan-merchandise and official brand apparel.
-* **Key Features:** Curated product drops, limited-edition collectibles, and street-style aesthetic.
+### 3. Rokupi (Hobby & Pop-Culture Retail)
+* **Focus:** Retail brand for collectibles, character goods, TCG/CCG, model kits, board games, plush, and hobby goods.
+* **Key Features:** Curated product drops, collectibles, and hobby items.
 * **Target Audience:** Anime community, creative collectors, and lifestyle fans.
 
 ## Tech Architecture Summary

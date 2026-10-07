@@ -7,7 +7,7 @@ const nextConfig: NextConfig = {
   },
   // the config property is experimental, but according to the log it might be top-level. 
   // Let's just put it top level as the log suggested:
-  allowedDevOrigins: ['192.168.1.2'],
+  allowedDevOrigins: ['192.168.1.2', '192.168.1.6'],
   output: 'export',
   images: {
     unoptimized: true,

@@ -1,6 +1,6 @@
 # Rumiku Brand & Landing Page
 
-Rumiku is a creative digital ecosystem connecting gaming culture, fandom media, and community-driven platforms. This context covers the brand identity system and landing page component vocabulary.
+Rumiku is a brand operated by PT RUMI KULTURA UTOPIA, building brands in digital commerce, media fandom, and hobby retail. This context covers the brand identity system and landing page component vocabulary.
 
 ## Language
 
@@ -53,13 +53,13 @@ _Avoid_: Card grid, feature grid
 ### Ecosystem Pillars
 
 **Creedigo**:
-The gaming and digital goods vertical. All-in-one game voucher top-up platform and digital goods distribution.
-_Avoid_: Gaming platform, top-up service
+Digital commerce platform. Fast processing, competitive pricing, and a focus on the gaming market.
+_Avoid_: Gaming platform, top-up service, premier all-in-one platform
 
 **Glocult**:
-The fandom media portal. Digital publication and culture hub covering anime, gaming, and pop culture.
-_Avoid_: Blog, media site, news portal
+Pop-culture media and editorial platform covering anime, gaming, and fandom trends.
+_Avoid_: Blog, media site, news portal, ultimate fandom media portal
 
 **Rokupi**:
-The merchandise and collectibles vertical. Exclusive fan-merchandise and official brand apparel.
-_Avoid_: Merch store, shop
+Hobby & pop-culture retail for collectibles, character goods, TCG/CCG, model kits, board games, plush, and hobby goods.
+_Avoid_: Merch store, shop, official brand apparel, exclusive fan-merchandise

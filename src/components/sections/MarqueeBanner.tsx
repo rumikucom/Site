@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 export function MarqueeBanner() {
-  const words = ["Innovation", "Community", "Design", "Ecosystem", "Future"];
+  const words = ["Play", "Discover", "Collect", "Create", "Connect"];
   
   return (
     <div className="bg-primary border-y border-border py-4 overflow-hidden flex whitespace-nowrap">

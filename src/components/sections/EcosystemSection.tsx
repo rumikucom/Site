@@ -6,20 +6,23 @@ const ecosystemProjects = [
   {
     title: "Creedigo",
     logo: "/images/project/Creedigo.webp",
-    description: "The premier all-in-one game voucher top-up platform and digital goods distribution network.",
-    linkText: "Power Up Here"
+    description: "Digital commerce platform. Fast processing, competitive pricing, and a focus on the gaming market.",
+    linkText: "Visit Creedigo",
+    url: "https://creedigo.com/"
   },
   {
     title: "Glocult",
     logo: "/images/project/Glocult.webp",
-    description: "Your ultimate fandom media portal. A digital publication and culture hub for anime, gaming, and pop culture.",
-    linkText: "Catch the Media"
+    description: "Pop-culture media and editorial platform covering anime, gaming, and fandom trends.",
+    linkText: "Visit Glocult",
+    url: "https://glocult.com/"
   },
   {
     title: "Rokupi",
     logo: "/images/project/Rokupi.webp",
-    description: "Exclusive fan-merchandise and official brand apparel designed for the modern fandom.",
-    linkText: "Shop the Drop"
+    description: "Hobby & pop-culture retail for collectibles, character goods, TCG/CCG, model kits, board games, plush, and hobby goods.",
+    linkText: "Visit Rokupi",
+    url: "https://rokupi.com/"
   }
 ];
 
@@ -32,12 +35,12 @@ export function EcosystemSection() {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         
         <div className="flex flex-col items-center mb-16 space-y-4 text-center">
-          <span className="text-secondary font-sans font-bold text-sm uppercase tracking-widest">Explore the Ecosystem</span>
+          <span className="text-secondary font-sans font-bold text-sm uppercase tracking-widest">Our Ecosystem</span>
           <h2 className="font-outfit font-black text-3xl md:text-5xl lg:text-7xl text-foreground uppercase tracking-tight">
-            Our Digital Universe
+            Three brands, one universe
           </h2>
           <p className="text-muted-foreground max-w-2xl text-lg md:text-xl font-light">
-            Connecting gaming culture, fandom media, and lifestyle merchandise under one massive roof.
+            Each brand under RUMIKU serves a specific role in the pop-culture value chain—from digital commerce to media to physical retail.
           </p>
         </div>
         
@@ -69,7 +72,9 @@ export function EcosystemSection() {
                 
                 <div className="mt-auto flex justify-center">
                   <a 
-                    href="#" 
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 font-bold uppercase tracking-widest text-sm text-muted-foreground group-hover:text-foreground transition-colors"
                   >
                     Enter Platform <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />

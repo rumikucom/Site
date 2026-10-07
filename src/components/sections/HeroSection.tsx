@@ -10,24 +10,24 @@ export function HeroSection() {
         
         {/* Hero Text with Inline Icons */}
         <h1 className="font-outfit font-black text-[2.75rem] leading-[1.05] tracking-tighter md:text-6xl lg:text-7xl xl:text-8xl md:leading-[1.3] md:tracking-tight text-foreground max-w-7xl">
-          We create
-          <span className="drop-shadow-[0_0_1.5px_rgba(0,0,0,0.25)] dark:drop-shadow-none text-transparent bg-clip-text bg-gradient-to-r from-primary to-lime-300"> digital</span>
+          Built around
+          <span className="drop-shadow-[0_0_1.5px_rgba(0,0,0,0.25)] dark:drop-shadow-none text-transparent bg-clip-text bg-gradient-to-r from-primary to-lime-300"> the things</span><br className="hidden md:block"/>
           
           <span className="inline-icon bounce mx-1 md:mx-6 lg:mx-8 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/holographic-star.webp" alt="Digital Spark" fill className="object-contain" />
           </span>
           
-          experiences <br className="hidden md:block"/>
-          that are fun
+          we love<br className="block md:hidden" />
+          
           <span className="inline-icon rotate ml-2 md:ml-4 lg:ml-6 mr-0 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/smiley-hologram.webp" alt="Fun" fill className="object-contain" />
-          </span>, <br className="block md:hidden" />
-          exciting
+          </span><br className="block md:hidden" />
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-purple-400"> gaming, media,</span>
           <span className="inline-icon bounce ml-2 md:ml-4 lg:ml-6 mr-0 w-[1.4em] h-[1.4em] inline-flex align-middle">
             <Image src="/images/icons/holographic-pyramid.webp" alt="Joy" fill className="object-contain" />
-          </span>, and accessible <br className="hidden md:block"/>
-          to bring
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-purple-400"> joy to your <br className="block md:hidden" /> everyday life</span>
+          </span><br className="hidden md:block"/>
+          and
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-purple-400"> pop-culture</span>
           <span className="inline-icon rotate ml-2 md:ml-4 lg:ml-6 mr-0 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/holographic-diamond.webp" alt="Life" fill className="object-contain" />
           </span>
@@ -39,13 +39,13 @@ export function HeroSection() {
           <div className="flex gap-4">
             <Button size="lg" className="font-outfit font-bold text-lg h-14 px-8 rounded-full shadow-glow hover:scale-105 hover:shadow-glow-secondary transition-transform bg-primary text-primary-foreground border border-black/15 dark:border-transparent">
               <a href="#ecosystem" className="flex items-center">
-                DISCOVER RUMIKU <ArrowDown className="ml-2 w-5 h-5" />
+                MEET OUR UNIVERSE <ArrowDown className="ml-2 w-5 h-5" />
               </a>
             </Button>
           </div>
 
           <p className="text-muted-foreground font-sans text-base md:text-lg max-w-md leading-relaxed">
-            Connecting gaming culture, fandom media, and lifestyle merchandise under one massive digital ecosystem.
+            RUMIKU is an ecosystem building brands in digital commerce, media fandom, and hobby retail.
           </p>
         </div>
       </div>

@@ -21,8 +21,8 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "Rumiku - Digital Fun, Exciting & Accessible Joy",
-  description: "A playful, modern, bold, and tactile ecosystem built for the next generation of web and community experiences.",
+  title: "RUMIKU - Built Around the Things We Love",
+  description: "RUMIKU builds brands in digital commerce, media fandom, and hobby/pop-culture retail. A brand operated by PT RUMI KULTURA UTOPIA.",
   icons: {
     icon: "/favicon.svg",
   },

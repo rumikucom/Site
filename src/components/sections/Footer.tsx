@@ -24,10 +24,10 @@ export function Footer() {
           
           <div className="flex flex-col items-start max-w-2xl relative z-10">
             <h2 className="font-outfit font-black text-4xl md:text-5xl lg:text-6xl text-foreground mb-4 uppercase tracking-tight">
-              We are always looking for partners and collaborators.
+              Let's build something fun.
             </h2>
             <p className="text-xl text-muted-foreground font-light mb-8 max-w-md">
-              Reach out.
+              We're open to partnerships with suppliers, brands, creators, and collaborators.
             </p>
           </div>
           
@@ -42,7 +42,7 @@ export function Footer() {
           <div className="md:col-span-5 flex flex-col items-start">
             <Image src="/images/footer-logo.svg" alt="Rumiku" width={200} height={128} className="h-24 md:h-32 w-auto mb-6" />
             <p className="text-muted-foreground font-sans max-w-sm">
-              Empowering the next generation of decentralized communities with beautiful, tactile, and uncompromising tools.
+              Building digital platforms and retail brands for gaming and pop-culture communities.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ export function Footer() {
         
         <div className="border-t border-foreground/10 pt-8 flex flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground font-sans text-sm">
-            © {new Date().getFullYear()} Rumiku. All rights reserved.
+            © {new Date().getFullYear()} PT RUMI KULTURA UTOPIA. All rights reserved.
           </p>
           {mounted ? (
             <button 

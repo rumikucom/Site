@@ -1,7 +1,7 @@
 # Rumiku Brand Identity
 
 ## Core Concept
-Rumiku is a creative digital ecosystem connecting gaming culture, fandom media, and community-driven platforms. The visual tone is playful, modern, bold, and tactile.
+RUMIKU is a brand operated by PT RUMI KULTURA UTOPIA, building brands in digital commerce, media fandom, and hobby/pop-culture retail. The tone is fun in personality, serious in facts, and simple in corporate communication.
 
 ## Key Brand Assets
 * **Logomark (Kitsune Mask):**
@@ -11,4 +11,4 @@ Rumiku is a creative digital ecosystem connecting gaming culture, fandom media, 
   * Lowercase styling (`rumiku`) with heavy rounded display typography.
   * Available in stacked block format (vertical) and inline format (horizontal).
 * **Tone of Voice:**
-  * Energetic, community-focused, direct, and creative.
+  * Professional, credible, and factual, but retaining a fun, community-centric personality. No unverified claims or excessive superlatives.
