@@ -16,12 +16,11 @@ export function HeroSection() {
           <span className="inline-icon bounce mx-1 md:mx-6 lg:mx-8 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/holographic-star.webp" alt="Digital Spark" fill className="object-contain" />
           </span>
-          
-          we love<br className="block md:hidden" />
+          we love<br />
           
           <span className="inline-icon rotate ml-2 md:ml-4 lg:ml-6 mr-0 w-[1em] h-[1em] inline-flex align-middle">
             <Image src="/images/icons/smiley-hologram.webp" alt="Fun" fill className="object-contain" />
-          </span><br className="block md:hidden" />
+          </span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary to-purple-400"> gaming, media,</span>
           <span className="inline-icon bounce ml-2 md:ml-4 lg:ml-6 mr-0 w-[1.4em] h-[1.4em] inline-flex align-middle">
             <Image src="/images/icons/holographic-pyramid.webp" alt="Joy" fill className="object-contain" />
